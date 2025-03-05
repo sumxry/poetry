@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poetry Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Poetry</h1>
+        <div class="poem-grid">
+            <div class="poem-title" onclick="showPoem()">Poem 1</div>
+            <div class="poem-title" onclick="showPoem()">Poem 2</div>
+            <div class="poem-title" onclick="showPoem()">Poem 3</div>
+        </div>
+        <div id="poem" class="poem-content" style="display:none;">
+            <div id="close" onclick="closePoem()">X</div>
+            <p>Your poem content goes here...</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
